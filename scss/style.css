@@ -1,0 +1,131 @@
+@charset "UTF-8";
+#id01 {
+  color: brown;
+}
+
+a .kniga_color1 {
+  color: peru;
+  font-size: 150%;
+}
+
+a .rightpic {
+  float: right;
+  margin: 0 0 5px 5px;
+}
+
+a .kniga_color2 {
+  color: peru;
+}
+
+a .kniga {
+  color: brown;
+  font-size: 140%;
+}
+
+a #kniga1 {
+  color: brown;
+  font-size: 160%;
+}
+
+a .rightpic1 {
+  float: left;
+  margin: 0 0 5px 5px;
+}
+
+li #id2 {
+  color: brown;
+  font-size: 140%;
+}
+
+li #id3 {
+  color: peru;
+  font-size: 140%;
+}
+
+li #id4 {
+  color: darkred;
+  font-size: 150%;
+}
+
+li hr {
+  border: none;
+  /* Убираем границу */
+  background-color: red;
+  /* Цвет линии */
+  color: red;
+  /* Цвет линии для IE6-7 */
+  height: 2px;
+  /* Толщина линии */
+}
+
+BODY {
+  background: url(../img/4.jpg);
+}
+
+@media (max-width: 750px) {
+  a .kniga_color1 {
+    color: peru;
+    font-size: 120%;
+  }
+  a .rightpic {
+    float: left;
+    margin: 0 0 5px 5px;
+    margin-top: 0px;
+    width: 100%;
+  }
+  a .kniga {
+    color: brown;
+    font-size: 120%;
+  }
+  a .kniga_color2 {
+    color: peru;
+    font-size: 120%;
+  }
+  #id2 {
+    color: black;
+    font-size: 250%;
+  }
+  #id3 {
+    color: peru;
+    font-size: 120%;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 414px) {
+  a .kniga_color1 {
+    color: black;
+    font-size: 150%;
+  }
+  a .rightpic {
+    float: left;
+    margin: 0 0 5px 5px;
+  }
+  a .kniga {
+    color: brown;
+    font-size: 150%;
+  }
+  a .kniga_color2 {
+    color: black;
+    font-size: 150%;
+  }
+  a .rightpic1 {
+    float: left;
+    margin: 0 0 5px 5px;
+    width: 100%;
+  }
+  #id2 {
+    color: black;
+    font-size: 250%;
+  }
+  #id3 {
+    color: brown;
+    font-size: 150%;
+    margin-top: 0px;
+  }
+  #id4 {
+    color: red;
+    font-size: 150%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

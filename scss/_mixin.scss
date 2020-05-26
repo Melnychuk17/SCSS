@@ -1,0 +1,14 @@
+@mixin one{
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
+@mixin two{
+    float: left; 
+    margin: 0 0 5px 5px;
+}
+@mixin three{
+    float: right; 
+    margin: 0 0 5px 5px;
+}

@@ -1,0 +1,124 @@
+@import "mixin"; 
+@import "variable";
+#id01{
+    color:$one;
+}
+a{
+ .kniga_color1{
+    color:$two;
+    font-size: 150%;
+ }
+ .rightpic{
+    @include three
+ }
+ .kniga_color2{
+    color:$two;
+ }
+ .kniga{
+    color: $one;
+    font-size: $three;
+
+ }
+ #kniga1{
+    color:$one;
+    font-size: 160%;
+ }
+ .rightpic1{
+    @include two 
+ }
+}
+li{
+ #id2{
+    color: $one;
+    font-size: $three
+ }
+ #id3{
+    color:$two;
+    font-size: $three
+ }
+ #id4{
+    color: darkred;
+    font-size: 150%
+ }
+ hr {
+    @include one
+ }
+}
+BODY {
+    background:url(../img/4.jpg)
+   } 
+   @media(max-width:750px){
+    a{
+     .kniga_color1{
+        color:$two;
+        font-size: 120%;
+
+     }
+     .rightpic{
+        float: left; 
+        margin: 0 0 5px 5px; 
+        margin-top: 0px;
+        width: 100%;
+     }
+     .kniga{
+        color: $one;
+        font-size: 120%;
+     }
+     .kniga_color2{
+        color:$two;
+        font-size: 120%;
+     }
+    }
+    #id2{
+        color: black;
+        font-size: 250%
+    }
+    #id3{
+        color:$two;
+        font-size: 120%;
+        margin-top:0px ;
+    }
+   
+
+}
+@media(max-width:414px){
+    a{
+     .kniga_color1{
+        color: black;
+        font-size: 150%;
+
+     }
+     .rightpic{
+        @include two  
+     }
+     .kniga{
+        color: brown;
+        font-size: 150%;
+     }
+     .kniga_color2{
+        color:black;
+        font-size: 150%;
+     }
+     .rightpic1{
+        float: left; 
+        margin: 0 0 5px 5px; 
+        width: 100%;
+     }
+    }
+    #id2{
+        color: black;
+        font-size: 250%
+    }
+    #id3{
+        color: $one;
+        font-size: 150%;
+        margin-top:0px ;
+    }
+    
+    #id4{
+        color:red;
+        font-size: 150%
+    }
+
+}
+
